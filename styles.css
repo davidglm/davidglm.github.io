@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: radial-gradient(circle at 90.81% 85.96%, #21d156 0, #2629e0 25%, #9251ac 50%, #59088f 78%, #241435 100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .titulo{
+    color: black;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subtitulo, .subsubtitulo{
+    color: black;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+#stop {
+  background-color: #b9f1f5;  
+	cursor: pointer;
+  font-size: 20px;
+  margin-top: 25px;
+  border:#009278
+  }
+  #cancion {
+    background-color: #b9f1f5;  
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 25px;
+    border:#009278
+    }
+  
+  @media(max-width:360px){
+          .titulo, .subtitulo, .subsubtitulo{
+          font-size: 23px; 
+        }
+        .instrucciones {
+          font-size: 10px;
+        }
+        .foto1{
+          height: 360px;
+           width: 360px;
+         }
+  }
