@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: #8ce4;
+}
+
+#caja {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 80%; /* Ajusta este valor según el ancho que desees para tu formulario */
+    max-width: 475px; /* Ajusta este valor según la anchura máxima que desees para tu formulario */
+    height: 300px; /* Ajusta este valor según la altura que desees para tu formulario */
+    padding: 20px; /* Ajusta este valor según el margen que desees para tu formulario */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid purple; /* Ajusta este valor según el color de la línea que desees */
+    border-width: 5px; /* Ajusta este valor según el ancho del borde que desees */
+    box-sizing: border-box; /* Ajusta esta propiedad para que el ancho y alto del borde se incluyan en el tamaño total de la caja */
+    color:  rgb(71, 153, 221);
+}
+
+.bienvenida, .titulo, .subtitulo{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+    color:  rgb(71, 153, 221);
+
+}
+
+
+textarea  {
+    margin-bottom: 5px;
+    height: 80px; /* Ajusta este valor según la altura que desees para tu cuadro de texto */
+    width: 300px;
+   
+}
+#email, label, #nombre{
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 20px;
+    display: block;
+
+}
+button{
+    border: 1px solid purple;
+    font-size: 10px;
+    width: 100px;
+    height: 25px;
+    font-family: 'Press Start 2P';
+}
