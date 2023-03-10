@@ -37,6 +37,7 @@ textarea  {
     margin-bottom: 5px;
     height: 80px; /* Ajusta este valor según la altura que desees para tu cuadro de texto */
     width: 300px;
+    resize: none;
    
 }
 #email, label, #nombre{
