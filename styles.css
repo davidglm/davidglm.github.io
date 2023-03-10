@@ -56,3 +56,26 @@ button{
     height: 25px;
     font-family: 'Press Start 2P';
 }
+@media (max-width: 360px) {
+    #caja {
+      width: 90%; /* Ajusta este valor según el ancho que desees para tu formulario */
+      padding: 10px; /* Ajusta este valor según el margen que desees para tu formulario */
+      border: 2px solid purple; /* ajusta el ancho del borde a tu gusto */
+    }
+
+    #email, label, #nombre{
+        margin: 0 auto;
+        font-size: 12px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 20px;
+        display: block;
+    
+    }
+
+    textarea  {
+        margin-bottom: 5px;
+        width: 100%;
+        resize: none;
+    }
+  }
