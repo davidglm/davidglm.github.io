@@ -9,7 +9,7 @@ function enviarmensaje() {
         alert('Por favor, rellene todos los campos');
     } else {
 
-        alert('Mensaje Enviado');
+        alert('No se envia a ningun lado pato.. Aun');
         // Aquí puedes agregar el código para enviar el mensaje si los campos no están vacíos
         // ...
     }
